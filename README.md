@@ -48,7 +48,7 @@ npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 Create directories called src and public .Create our HTML file public/index.html , entry filesrc/index.js and a component file src/App.js inside of it.
 
-````
+```
 mkdir src public
 touch src/index.js src/App.js public/index.html
 ```
