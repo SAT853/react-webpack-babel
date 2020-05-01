@@ -1,3 +1,15 @@
+## Quick Start
+```
+# Install dependencies
+npm install
+
+# Serve on localhost:3000
+npm start
+
+# Build for production
+npm run build
+```
+
 ## Set up React App with Webpack, Webpack Dev Server and Babel from scratch.
 
 ## Step 1: Create package.json file
