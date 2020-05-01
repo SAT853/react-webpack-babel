@@ -2,17 +2,19 @@
 
 ## Step 1: Create package.json file
 
+```
 cd ~
 mkdir projectname
 cd ~/projectname
-
 // Creates package.json file
-npm init --yes
+npm init --y
+```
 
 ## Step 2: Install react and react-dom
 
+```
 npm i react react-dom
-
+```
 ## Step 3: Install Babel
 
 Let's install babel and the required presets and plugins.
