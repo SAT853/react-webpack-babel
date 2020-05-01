@@ -3,7 +3,6 @@
 ## Step 1: Create package.json file
 
 ```
-cd ~
 mkdir projectname
 cd ~/projectname
 // Creates package.json file
