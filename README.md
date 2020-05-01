@@ -5,7 +5,7 @@
 ```
 mkdir projectname
 cd ~/projectname
-// Creates package.json file
+// creates package.json file
 npm init --y
 ```
 
@@ -48,17 +48,20 @@ npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 Create directories called src and public .Create our HTML file public/index.html , entry filesrc/index.js and a component file src/App.js inside of it.
 
--- mkdir src public
--- touch src/index.js src/App.js public/index.html
-
+````
+mkdir src public
+touch src/index.js src/App.js public/index.html
+```
 ## Step 7: Set up Webpack configuration file webpack.config.js
 
 Here html-webpack-plugin will use your custom index.html that will be rendered by webpack-dev-server
+
 Please note that if you don’t pass any param in new HTMLWebpackPlugin() , then thehtml-webpack-plugin plugin will generate an HTML5 file for you that includes all your webpack bundles in the body using script tags.
+
 Also add the style loader, css loader and file-loader for styles and images. As webpack understands javascript so we need to convert the styles and images in javascript using these loaders
 
 ```
--- npm install style-loader css-loader file-loader
+npm install style-loader css-loader file-loader
 ```
 
 ```
