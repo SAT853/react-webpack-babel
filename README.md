@@ -22,10 +22,10 @@ Let's install babel and the required presets and plugins.
 npm i -D @babel/preset-react @babel/preset-env @babel/core babel-loader
 ```
 
--- @babel/preset-react is preset for react,
--- @babel/preset-env is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms are needed by your target environment(s).
--- @babel/core contains the core functionality of Babel.
--- babel-loader will be used by webpack to transpile Modern JS into the JS code that browsers can understand.
+@babel/preset-react is preset for react,
+@babel/preset-env is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms are needed by your target environment(s).
+@babel/core contains the core functionality of Babel.
+babel-loader will be used by webpack to transpile Modern JS into the JS code that browsers can understand.
 
 ## Step 4: Create a babel config file .babelrc
 
@@ -52,6 +52,7 @@ Create directories called src and public .Create our HTML file public/index.html
 mkdir src public
 touch src/index.js src/App.js public/index.html
 ```
+
 ## Step 7: Set up Webpack configuration file webpack.config.js
 
 Here html-webpack-plugin will use your custom index.html that will be rendered by webpack-dev-server
