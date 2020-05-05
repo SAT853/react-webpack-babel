@@ -1,7 +1,8 @@
 ## Quick Start
 ```
-#Download project
+# Download project
 git clone https://github.com/SAT853/react-webpack-babel.git
+
 # Install dependencies
 npm install
 
